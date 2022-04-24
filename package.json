@@ -1,0 +1,31 @@
+{
+  "name": "wad_assignment_1",
+  "version": "1.0.0",
+  "description": "Web Applications Development - Assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      ["./node_modules/jest-html-reporter", {
+        "pageTitle": "Test Report"
+      }]
+    ]    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamsjoe/WAD_Assignment_1.git"
+  },
+  "author": "19000170",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamsjoe/WAD_Assignment_1/issues"
+  },
+  "homepage": "https://github.com/adamsjoe/WAD_Assignment_1#readme",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-html-reporter": "^3.4.2"
+  }
+}
