@@ -53,7 +53,7 @@ it('first video "type" should be "general"', () => {
 ```
 could be rewritten to be a single test, this would look like this:
 ```javascript
-    it('"problem_s" video should have appropriate attritubutes', () => {        
+    it('"problem_s" video should have appropriate attributes', () => {        
         const image = JSON.stringify(pageData.balances.hint.video[0].image);
         const link = JSON.stringify(pageData.balances.hint.video[0].link);
         const title = JSON.stringify(pageData.balances.hint.video[0].title);
