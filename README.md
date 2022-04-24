@@ -72,7 +72,11 @@ could be rewritten to be a single test, this would look like this:
         expect(typeof pageData.balances.hint.video[0].type).toBe('string')
     });       
 ```
-This is supported with Jest, however, this then removed specificity from the test and demotes the test to be more like a "code smell" (_a code smell is any characteristic in the source code of a program that possibly indicates a deeper problem._)  For this reason, the tests are have been split up.  However, the one exception is that each test will also check the type of data which it is being checked.  In this way, if this were real, as developers we could ensure that should front end sanitisation fail, we will catch these at this level.
+This is supported with Jest, however, this then removed specificity from the test and demotes the test to be more like a "code smell" (_a code smell is any characteristic in the source code of a program that possibly indicates a deeper problem._)  For this reason, the tests are have been split up.  However, the one exception is that each test will also check the type of data which it is being checked.  In this way, if this were real, as developers we could ensure that should front end sanitisation fail, we will catch these at this level. We do this using the code
+```javascript
+expect(typeof pageData.balances.hint.video[0].image).toBe('string')
+```
+which checks a specific element is of the type indicted (in the example, string.)
 
 ### Viewing results
 
