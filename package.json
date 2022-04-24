@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamsjoe/WAD_Assignment_1.git"
+    "url": "git+https://github.com/adamsjoe/assignment119000170.git"
   },
   "author": "19000170",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamsjoe/WAD_Assignment_1/issues"
+    "url": "https://github.com/adamsjoe/assignment119000170/issues"
   },
-  "homepage": "https://github.com/adamsjoe/WAD_Assignment_1#readme",
+  "homepage": "https://github.com/adamsjoe/assignment119000170.git#readme",
   "devDependencies": {
     "jest": "^27.4.7",
     "jest-html-reporter": "^3.4.2"
